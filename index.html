@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Projeto Jujutsu Kaisen - MapaDev Week</title>
+
+    <link rel="shortcut icon" href="src/imagens/sukuna-logo.webp" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+
+    <link rel="stylesheet" href="src/css/estilos.css">
+
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/sukuna-logo.webp" alt="jujustu logo" class="kaisen">
+        <h1 class="titulo">MapaDev Week</h1>
+    </header>
+
+    <main class="jujutsu-slider">
+        <button class="setas seta-voltar" id="botao-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-jujutsus">
+            <li class="cards selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Itadori</h2>
+                    <p class="rank">Estudante</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/itadori_logo.png" alt="Itadori" class="imagem-personagem"/>
+                </div>
+
+                <div class="descricao">
+                    <h3 class="sub-titulo">Descrição</h3>
+                    <p class="biografia">Yuji Itadori, protagonista principal de Jujutsu Kaisen. Ele está no primeiro ano da Escola Secundária Jujutsu da Prefeitura de Tóquio. Yuji é um adolescente que, depois de comer o dedo e consequentemente se tornar um hospedeiro para Sukuna, ele recebe um segundo par de olhos que só se abrem quando Sukuna controla o corpo.</p>
+                </div>
+            </li>
+
+            <li class="cards fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Fushiguro</h2>
+                    <p class="rank">Estudante</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/Megumi_Fushiguro.webp" alt="Fushiguro" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="sub-titulo">Descrição</h3>
+                    <p class="biografia">Megumi Fushiguro, deuteragonista da série Jujutsu Kaisen. Ele é aluno do primeiro ano do Colégio Jujutsu e descendente da Família Zenin. Embora aparentemente estóico e calculista, Megumi deseja ajudar a proteger as pessoas que ele considera boas ou gentis. Ele acredita que o mundo é injusto e que um Feiticeiro é uma ferramenta para garantir que pessoas boas tenham mais chances de viver.</p>
+                </div>
+            </li>
+
+            <li class="cards fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Kugisaki</h2>
+                    <p class="rank">Estudante</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/Kugisaki.Nobara.full.2965703.png" alt="Kugisaki" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="sub-titulo">Descrição</h3>
+                    <p class="biografia">Nobara Kugisaki, tritagonista de Jujutsu Kaisen. Ela está no primeiro ano da Escola Secundária Jujutsu de Tóquio. É uma mulher impetuosa e autoconfiante que acredita fortemente em ser "verdadeira" consigo mesma. Ela se orgulha de sua aparência física, ofendendo-se muito com qualquer um que a insulte ou tente bater em seu rosto. Ela também é muito falante durante a batalha, menosprezando e insultando verbalmente seus oponentes, mesmo à beira da morte.</p>
+                </div>
+            </li>
+
+            <li class="cards fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">Inumaki</h2>
+                    <p class="rank">Estudante</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/Toge_Inumaki.webp" alt="Inumaki" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="sub-titulo">Descrição</h3>
+                    <p class="biografia">Toge Inumaki é um personagem de Jujutsu Kaisen. Ele está no segundo ano da Escola Secundária Jujutsu de Tóquio. Toge inicialmente parece ser um menino quieto e distante, um tanto intimidante para Yuta Okkotsu quando se conheceram. No entanto, por baixo de sua personalidade calma e um tanto indiferente, Toge é na verdade um indivíduo muito perspicaz e atencioso. Ele não fala para evitar amaldiçoar acidentalmente alguém com suas palavras encantadas.</p>
+                </div>
+            </li>
+
+            <li class="cards fundo-5">
+                <div class="informacoes">
+                    <h2 class="nome">Maki Zenin</h2>
+                    <p class="rank">Estudante</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/Maki_Zenin.webp" alt="Maki Zenin" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="sub-titulo">Descrição</h3>
+                    <p class="biografia">Maki Zenin é um importante personagem coadjuvante em Jujutsu Kaisen. Ela está atualmente no segundo ano da Escola Secundária Jujutsu de Tóquio. Originalmente da Família Zenin, Maki saiu sozinha devido a ser rejeitada por sua falta de Energia Amaldiçoada. Ela é obstinada e se motiva a escapar dos laços de sua Família de Feiticeiros. Por toda a sua vida, ela foi maltratada e rebaixada por ser uma mulher e não feiticeira pelos Zenins.</p>
+                </div>
+            </li>
+
+            <li class="cards fundo-6">
+                <div class="informacoes">
+                    <h2 class="nome">Panda</h2>
+                    <p class="rank">Estudante</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/Panda.webp" alt="Panda" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="sub-titulo">Descrição</h3>
+                    <p class="biografia">Panda é um personagem coadjuvante de Jujutsu Kaisen. Não é um panda de verdade, ele é um cadáver amaldiçoado com mutação abrupta criado pelo diretor Masamichi Yaga e frequenta o colégio Jujutsu como aluno do segundo ano. Em geral, o Panda é um indivíduo muito otimista e calmo, com seu próprio senso de humor. Quando era mais jovem, ele falava de uma forma extremamente adequada, mais parecida com um computador, mas com o passar do tempo, Panda desenvolveu sua própria personalidade única.</p>
+                </div>
+            </li>
+
+            <li class="cards fundo-7">
+                <div class="informacoes">
+                    <h2 class="nome">Sukuna</h2>
+                    <p class="rank">Rei das Maldições</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/sukuna-logo.webp" alt="Sukuna" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="sub-titulo">Descrição</h3>
+                    <p class="biografia">Ryomen Sukuna é um dos principais antagonistas de Jujutsu Kaisen, atualmente conhecido como o Rei das Maldições. Sukuna é egoísta, de coração frio, imoral e excepcionalmente sádico. Quando ele reencarnou logo após Yuji ter ingerido seu dedo, ele comentou, sugerindo o massacre de mulheres e crianças e comparando-as a vermes rastejando. Devido ao seu imenso poder, ele raramente se preocupa com as consequências de suas ações, mesmo que elas afetem seu hospedeiro, Yuji Itadori. Na verdade, ele frequentemente provoca e insulta Yuji, chamando-o de pirralho e até mesmo rindo ou se divertindo com o desespero de Yuji em várias ocasiões.</p>
+                </div>
+            </li>
+
+            <li class="cards fundo-8">
+                <div class="informacoes">
+                    <h2 class="nome">Satoru Gojo</h2>
+                    <p class="rank">Mestre</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/Satoru_Gojo.png" alt="Satoro" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="sub-titulo">Descrição</h3>
+                    <p class="biografia">Satoru Gojo é um dos protagonistas de Jujutsu Kaisen. Ele é professor da Escola Secundária Jujutsu de Tóquio. Satoru normalmente é indiferente e brincalhão com pessoas como seus alunos, colegas (próximos) e amigos, mas antipático e cruel com pessoas como Executivos Feiticeiros. Ele está muito confiante em suas habilidades e reputação como um feiticeiro poderoso, casualmente descartando ameaças pessoais de Sukuna dizendo que ele poderia derrotar o Rei das Maldições facilmente. Em uma crise, Gojo é capaz de ter sangue frio. Ele priorizará a destruição de seus inimigos em vez de salvar pessoas inocentes quando pensa que o sacrifício é inevitável. No entanto, isso só se estende às pessoas mortas por seu oponente; Gojo não causará nenhum dano duradouro ou matará qualquer pessoa inocente para obter vantagem.</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="setas" id="botao-avancar">
+            <img src="src/imagens/seta.png" alt="seta avançar">
+        </button>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>

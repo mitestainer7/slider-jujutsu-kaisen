@@ -1,0 +1,32 @@
+@media (max-width: 620px) {
+    .jujutsu-slider {
+        padding: 0 15px;
+        gap: 10px;
+    }
+
+    .setas {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista-jujutsus {
+        height: 480px;
+    }
+
+    .cards .imagem-personagem {
+        max-height: 230px;
+    }
+
+    .cards .informacoes .nome {
+        max-width: 50%;
+        font-size: 18px;
+    }
+
+    .cards .informacoes .rank {
+        font-size: 14px;
+    }
+}
